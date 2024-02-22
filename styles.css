@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+
+.nav_bar {
+  box-sizing: border-box;
+  border: 1px solid coral;
+  width: calc(100vw - 1px);
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  background-color: #dddddd;
+  color: black;
+  width: 100px;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+}
+
+.float_right {
+  float: right;
+}
